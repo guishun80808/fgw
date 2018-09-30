@@ -1,0 +1,50 @@
+.icon1{
+  background: url(../../../assets/icon1.png) no-repeat;
+  background-size:100% 100%;
+  width: 26px;
+  height: 26px; 
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.icon2{
+  background: url(../../../assets/icon2.png) no-repeat;
+  background-size:100% 100%;
+  width: 26px;
+  height: 26px; 
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.icon3{
+  background: url(../../../assets/icon3.png) no-repeat;
+  background-size:100% 100%;
+  width: 26px;
+  height: 26px; 
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.middle{
+  vertical-align: middle;
+}
+
+.list{
+  font-size: 12px;
+}
+
+.more{
+  text-align: center;
+  color: #108ee9;
+  font-size: 14px;
+  padding: 0 0 14px 0;
+}
+
+:global(.am-list-item .am-list-line .am-list-content){
+  font-size: 12px;
+  padding:0;
+}
+

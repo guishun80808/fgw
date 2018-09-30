@@ -1,0 +1,21 @@
+.more {
+  text-align: center;
+  color: #108ee9;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 10px;
+}
+
+:global(.image-gallery-slide img) {
+  height: 12rem;
+}
+
+:global(.image-gallery-fullscreen-button::before),
+:global(.image-gallery-play-button::before),
+:global(.image-gallery-left-nav::before),
+:global(.image-gallery-right-nav::before) {
+  background: #000000;
+  padding: 8px;
+  opacity: 0.6;
+}
+

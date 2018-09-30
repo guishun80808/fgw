@@ -1,0 +1,49 @@
+:global(.am-grid .am-flexbox .am-flexbox-item .am-grid-item-content .am-grid-item-inner-content){
+  background: #1e8edc;
+  border-radius: 5px;
+  width: 70%;
+  height: 70%;
+  text-align: center;
+  margin: 15% auto;
+}
+
+:global(.am-grid.am-grid-square .am-grid-item .am-grid-item-inner-content .am-grid-icon){
+  margin-top: 0;
+}
+
+:global(.am-grid .am-flexbox .am-flexbox-item .am-grid-item-content .am-grid-item-inner-content .am-grid-text){
+  margin-top: 0;
+  color: #ffffff;
+}
+
+.title{
+  color: #108ee9;
+  font-size: 15px;
+  padding: 15px 0 5px 10px;
+  display: block;
+}
+
+:global(.am-grid .am-flexbox .am-flexbox-item .am-grid-item-content .am-grid-item-inner-content .am-grid-text){
+  width: 60%;
+  font-size: 14px;
+}
+
+.grid{
+  width: 20%;
+  float: left;
+  color: #fff;
+}
+
+.grid .textBox{
+  background: #1e8edc;
+  border-radius: 5px;
+  width: 70%;
+  padding: 10px 0;
+  text-align: center;
+  margin: 15% auto;
+}
+
+.grid .textBox .text{
+  width: 30px;
+  margin: 0 auto;
+}

@@ -1,0 +1,30 @@
+.space-carousel {
+  padding-bottom: 20px;
+  touch-action: none;
+}
+
+.txtBox{
+  position: relative;
+}
+
+.txt{
+  color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  font-size: 10px;
+  padding-left: 5%;
+  display: block;
+  width: 90%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+:global(.am-carousel-wrap-dot > span){
+  background: transparent;
+  border: 1px solid #64a6d4;
+}
+
+:global(.am-carousel-wrap-dot-active > span){
+  background:#64a6d4;
+}

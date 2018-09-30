@@ -1,0 +1,27 @@
+.list{
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+  padding: 10px;
+}
+
+.list li{
+  line-height: 30px;
+  border-bottom: 1px solid #d5d5d5;
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.list li i{
+  font-style:normal;
+  color: #64a6d4;
+}
+
+.more{
+  text-align: center;
+  color: #108ee9;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}

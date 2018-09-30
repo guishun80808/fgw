@@ -1,0 +1,44 @@
+.bg{
+  background: #E7ECF0;
+}
+
+.login{
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 109px;
+    width: 100%;
+}
+
+.banner{
+    background-color: #ffffff;
+    padding-top: 10px;
+}
+
+.msg{
+    background-color: #ffffff;
+    height: 260px;
+    margin-bottom: 10px;
+}
+
+.service{
+    background-color: #ffffff;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.infor{
+    background-color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.hot{
+    background-color: #ffffff;
+    height: 270px;
+    margin-bottom: 10px;
+}
+
+.footer{
+    background-color: #2ba4ed;
+    color: #ffffff;
+    width: 100%;
+}

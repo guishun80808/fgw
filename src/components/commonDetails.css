@@ -1,0 +1,45 @@
+.title {
+  font-size: 15px;
+  color: #014993;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.top {
+  text-align: center;
+  color: #676a6c;
+  font-size: 12px;
+}
+
+.top span {
+  margin-right: 5px;
+}
+
+.txt {
+  padding: 10px;
+}
+
+.txt p img{
+  display: block;
+}
+
+p{
+  padding: 0 10px
+}
+
+p span{
+  font-weight: bold
+}
+
+p span.tit{
+  color: #014993;
+}
+
+.fullImg{
+  margin-top: 10px;
+  display: block;
+}
+
+.imgHr{
+  margin: 10px 0;
+}

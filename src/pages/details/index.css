@@ -1,0 +1,34 @@
+.my-drawer {
+  position: relative;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.my-drawer .am-drawer-sidebar {
+  background-color: #fff;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.my-drawer .am-drawer-sidebar .am-list {
+  width: 300px;
+  padding: 0;
+}
+
+:global(.am-drawer-open.am-drawer.am-drawer-right .am-drawer-sidebar){
+  background: #1888d6;
+}
+
+:global(.am-drawer-overlay){
+  display: none
+}
+
+:global(.am-list-item){
+  background: #1888d6;
+}
+
+:global(.am-list-item .am-list-line .am-list-content){
+  color: #fff;
+}
+
+:global(html:not([data-scale]) .am-list-body div:not(:last-child) .am-list-line::after ),:global(html:not([data-scale]) .am-list-body::before),:global(html:not([data-scale]) .am-list-body::after){
+  background: transparent;
+}

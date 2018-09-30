@@ -1,0 +1,12 @@
+.footerBox{
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px 0;
+    font-size: 0.6rem;
+}
+
+.footerBox p {
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    line-height: 1rem;
+}

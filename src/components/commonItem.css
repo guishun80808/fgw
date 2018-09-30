@@ -1,0 +1,69 @@
+body {
+  background: #ffffff;
+}
+
+.list {
+  padding: 0 10px 10px 10px;
+}
+
+.list li {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  line-height: 18px;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.list li a {
+  display: block;
+}
+
+.list .title {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #108ee9;
+}
+
+.list .con {
+  overflow: hidden;
+  margin: 6px 0;
+  height: 54px;
+  line-height: 18px;
+  display: block;
+}
+
+.right {
+  text-align: right;
+  color: #676a6c;
+}
+
+.sourse {
+  margin-right: 5px;
+}
+
+.list p{
+  margin-block-start: 0.5rem;
+  margin-block-end: 0.5rem;
+  padding: 0;
+}
+
+.img{
+  width: 30%;
+  vertical-align: top;
+  max-height:85px;
+}
+
+.rightBox{
+  width: 67%;
+  margin-left: 3%;
+  display: inline-block;
+}
+
+.list .txt{
+  overflow: hidden;
+  margin: 6px 0;
+  height: 36px;
+  line-height: 18px;
+  display: inline-block;
+}
